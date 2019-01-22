@@ -1,4 +1,6 @@
 #Peter Rosenquist 
+#function for simulating minimum of 
+#uniform distribution
 simMinUnif <- function(n, B){
   Xn <- NULL
   for(i in 1:B){
