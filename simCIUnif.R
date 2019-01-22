@@ -1,4 +1,6 @@
 #Peter Rosenquist
+#function for simulating the confidence interval for the parameter
+#of uniform distribution
 simCIUnif <- function(n, theta){
   cdf_of_X_CI_count <- 0 
   mle_CI_count <- 0
