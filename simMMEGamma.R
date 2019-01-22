@@ -1,4 +1,6 @@
 #Peter Rosenquist
+#function for simulating MME alpha and
+#beta of gamma distribution
 simMMEGamme <- function(n, alpha, beta){
   beta_hat <- NULL
   alpha_hat <- NULL
