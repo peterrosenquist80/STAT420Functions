@@ -1,4 +1,6 @@
 #Peter Rosenquist
+#function for simulation of MLE theta of
+#beta distribution 
 simMLEBeta <- function(n, theta){
   theta_hat_set <- NULL
   theta_hat_minus_theta_set <- NULL
